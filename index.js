@@ -74,7 +74,7 @@ function loadPage() {
 }
 
 async function loadImages() {
-    await fetch('imgs.php')
+    await fetch('images/art/list.json')
         .then(res => res.json())
         .then(res => imgs = res)
 
