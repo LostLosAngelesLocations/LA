@@ -77,6 +77,7 @@ async function loadImages() {
     await fetch('images/art/list.json')
         .then(res => res.json())
         .then(res => imgs = res)
+        .catch(err => alert(String(err)));
 
     loadPage();
 }

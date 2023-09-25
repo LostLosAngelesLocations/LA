@@ -26,14 +26,6 @@ td {
     margin: 0;
 }
 
-table {
-    position: absolute;
-    width: 75vw;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -55%);
-}
-
 table td {
     vertical-align: middle;
 }
@@ -68,6 +60,8 @@ a {
 
 #prev_page,
 #next_page {
+    position: absolute;
+    top: 40vh;
     font-size: 7.5vw;
     font-weight: bold;
     text-decoration: none;
@@ -82,8 +76,11 @@ a {
 }
 
 #prev_page {
-    margin-left: 2.5vw;
-    margin-right: -2.5vw;
+    left: .1em;
+}
+
+#next_page {
+    right: .1em;
 }
 
 #overlay {
