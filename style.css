@@ -19,6 +19,11 @@ body {
     text-align: center;
 }
 
+table {
+    width: 100%;
+    height: 100%;
+}
+
 table,
 tr,
 td {
@@ -50,7 +55,7 @@ th:last-child {
 }
 
 table img {
-    max-width: 25vw;
+    max-width: 45vw;
     max-height: 45vh;
 }
 
