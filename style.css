@@ -123,3 +123,12 @@ a {
 .close-win:hover {
     text-decoration: underline;
 }
+
+.div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: gray;
+}
