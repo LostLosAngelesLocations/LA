@@ -36,7 +36,8 @@ function prev() {
     if (page < 1)
         page = 1;
 
-    if (oldPage === page) return;
+    if (oldPage === page)
+        return;
 
     loadPage();
 }
@@ -57,6 +58,8 @@ function next() {
 }
 
 function loadPage() {
+    document.querySelector('.div h2 span').innerText = page;
+
     let idx = (page * numPerPage) - numPerPage;
 
     for (let i = 1; i <= numPerPage; i++) {
