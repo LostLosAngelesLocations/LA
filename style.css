@@ -127,7 +127,7 @@ a {
 .div {
     position: absolute;
     top: 0;
-    left: 47.5%;
+    left: 50vw;
     width: 1px;
     height: 100%;
     background-color: gray;
