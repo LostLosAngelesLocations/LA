@@ -67,6 +67,7 @@ function loadPage() {
 
         if (imgs[idx])
             cellHTML = `
+                <h1>${imgs[idx].replace("images/art/", '').replace(/\.[^.]+?$/, '')}</h1>
                 <img src="${imgs[idx]}" />
             `;
 
