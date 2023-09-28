@@ -52,7 +52,8 @@ function next() {
     if (page > lastPage)
         page = lastPage;
 
-    if (oldPage === page) return;
+    if (oldPage === page)
+        return;
 
     loadPage();
 }
